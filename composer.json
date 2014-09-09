@@ -1,0 +1,23 @@
+{
+    "name": "mic/better-dd",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mic",
+            "email": "kittiphong.mic@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Mic\\BetterDD\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
