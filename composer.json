@@ -1,6 +1,7 @@
 {
     "name": "mic/better-dd",
-    "description": "",
+    "description": "A package for Laravel 4 to dump the given variable. It much better than dd function in Laravel Helpers. Clean and Readable",
+    "keywords": ["laravel", "debug", "better dd", "dd", "dump variable"],
     "authors": [
         {
             "name": "Mic",
