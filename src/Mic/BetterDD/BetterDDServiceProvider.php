@@ -28,7 +28,7 @@ class BetterDDServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		include __DIR__.'/dd.php';
+		
 	}
 
 	/**

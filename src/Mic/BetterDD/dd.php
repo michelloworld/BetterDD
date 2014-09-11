@@ -1,9 +1,11 @@
 <?php
 
-function debug($val) {
-	echo "<pre>";
-	print_r($val);
-	echo "</pre>";
+if (!function_exists('debug')) {
+	function debug($val) {
+		echo "<pre>";
+		print_r($val);
+		echo "</pre>";
+	}
 }
 
 function ddd($val) {

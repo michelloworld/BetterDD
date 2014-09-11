@@ -18,7 +18,10 @@
         ],
         "psr-0": {
             "Mic\\BetterDD\\": "src/"
-        }
+        },
+        "files": [
+            "src/Mic/BetterDD/dd.php"
+        ]
     },
     "minimum-stability": "stable"
 }
