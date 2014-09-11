@@ -6,8 +6,8 @@ A package for Laravel 4 to dump the given variable. It much better than dd funct
 Example Usage:
 ------------------
 ```
-// debug() function doesn't end execution of the script. You have to use exit or die function after debug.
-debug($value);
+// de() function doesn't end execution of the script. You have to use exit or die function after de().
+de($value);
 
 OR
 
